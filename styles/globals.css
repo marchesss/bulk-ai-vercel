@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #1a1a1a;
+  color: #00f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background-color: #222;
+  border: 2px solid #00f0ff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px #00f0ff50;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.character-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#character {
+  width: 120px;
+  height: 120px;
+  transition: all 0.3s ease;
+}
+
+.chat-container {
+  background-color: #111;
+  border: 1px solid #00f0ff50;
+  border-radius: 8px;
+  padding: 10px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.user {
+  text-align: right;
+  background-color: #00f0ff20;
+}
+
+.bot {
+  text-align: left;
+  background-color: #00f0ff10;
+}
+
+.input-container {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #00f0ff;
+  background-color: #222;
+  color: #00f0ff;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: 1px solid #00f0ff;
+  border-radius: 5px;
+  background-color: #111;
+  color: #00f0ff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00f0ff10;
+}
